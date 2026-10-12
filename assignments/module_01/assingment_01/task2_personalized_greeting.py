@@ -1,13 +1,19 @@
 # Task 2: Create a Personalized Greeting
 
+
 def main():
-    print("=== Personalized Greeting Program ===")
-    # TODO: Get first name and last name as input, using .strip() to clean them
-    
-    # TODO: Concatenate into a full name
-    
-    # TODO: Print a personalized greeting using f-strings
-    pass
+  print("=== Personalized Greeting Program ===")
+
+  # 1. Take first name and last name as input
+  first_name = input("Enter your first name: ").strip()
+  last_name = input("Enter your last name: ").strip()
+
+  # 2. Concatenate into a full name
+  full_name = f"{first_name} {last_name}"
+
+  # 3. Print personalized greeting
+  print(f"\nHello, {full_name}! Welcome to the Python Program.")
+
 
 if __name__ == "__main__":
-    main()
+  main()
