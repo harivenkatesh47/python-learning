@@ -1,5 +1,4 @@
-# Module 1: Python Basics - Revision Notes
-**Date:** 2026-10-11
+# Module 01: Python Basics - Revision Notes
 
 ## 1. Core Elements
 * **Literals:** Raw data values written directly into code (e.g., `10`, `"Hello"`).
