@@ -1,9 +1,9 @@
-**Module 5: Lists in Python - Core Concepts**
+**Lists in Python - Core Concepts**
 
 **1. Introduction to Lists**
 * Lists are ordered, mutable, and heterogeneous collections of elements enclosed in square brackets `[]`[cite: 1].
 * Elements can be modified, added, or removed in place without creating a new object in memory[cite: 1].
-* A single list can simultaneously store multiple data types, such as integers, strings, and booleans[cite: 1].
+* A single list can simultaneously store multiple data types, such as integers, strings, and bool eans[cite: 1].
 
 **2. Sequence Operations & Element Insertion**
 * Lists use zero-based and negative indexing, with slicing syntax formatted as `list[start:stop:step]`[cite: 1].
