@@ -1,22 +1,23 @@
-# Module 01: Python Basics - Revision Notes
+# Module 01: Python Basics - Core Concepts
 
-## 1. Core Elements
-- **Literals:** Raw, hardcoded data values entered directly into the source code (e.g., `10`, `3.14`, `"Hello"`)[cite: 1].
-- **Variables:** Named memory references used as containers to store, label, and retrieve data values across program execution[cite: 1].
-- **Keywords:** Reserved identifiers built directly into Python (e.g., `if`, `def`, `True`) that carry strict syntax meanings and cannot be repurposed as variable names[cite: 1].
+## 1. Fundamental Elements
+*   **Literals:** Raw, fixed data values written directly into the code (e.g., `10` or `"Hello"`).
+*   **Variables:** Named memory containers used to store data values for later reference.
+*   **Keywords:** Reserved, built-in words in Python (like `if`, `def`, `True`) that possess special meanings and cannot be used as variable names.
 
-## 2. Primitive Datatypes & Conversion
-- **Types:** Integers (`int`), Decimals (`float`), Text (`str`), and Booleans (`bool`)[cite: 1].
-- **Type Casting:** Explicitly converting data[cite: 1]. 
-  - *Example:* `float(input())` explicitly converts string representations of numbers into numeric types for computation[cite: 1].
-  - *Boolean casting:* `bool(val)` evaluates to `False` for `0`, `None`, and empty sequences, and `True` for non-zero values[cite: 1].
+## 2. Datatypes & Conversion
+*   **Primitive Datatypes:** The basic building blocks of data, primarily including integers (`int`), decimals (`float`), text (`str`), and truth values (`bool`).
+*   **Basic String Operations:** Foundational text manipulations like joining strings together (concatenation) or repeating them.
+*   **Type Conversion (Casting):** The explicit process of changing data from one type to another. This includes converting values to `int`, `float`, and `str`, as well as converting various types to evaluate their `boolean` truthiness.
 
-## 3. Operators & Precedence
-- **Arithmetic:** `+` (add), `-` (subtract), `*` (multiply), `/` (true float division), `//` (floor division), `%` (modulus), `**` (exponent)[cite: 1].
-- **Comparison:** `==` (equal), `!=` (not equal), `>`, `<`, `>=`, `<=`. Return `True` or `False`[cite: 1].
-- **Logical:** `and`, `or`, `not`[cite: 1].
-- **Precedence:** Governs the evaluation sequence of operations (Parentheses → Exponentiation → Multiplication/Division/Modulus → Addition/Subtraction → Comparisons → Logical)[cite: 1].
+## 3. Operators & Logic
+*   **Arithmetic Operators:** Used for mathematics (e.g., `+`, `-`, `*`, `/`).
+*   **Assignment Operators:** Used to assign calculated values into variables (e.g., `=`, `+=`).
+*   **Comparison Operators:** Used to compare two values, returning True or False (e.g., `==`, `>`, `<`).
+*   **Logical Operators:** Used to combine conditional statements together (e.g., `and`, `or`, `not`).
+*   **Associativity & Precedence:** The strict mathematical order of operations determining which operators evaluate first when multiple exist in a single expression.
 
-## 4. Input & Output
-- **Console Output:** `print()` writes data strings to the standard console and supports formatted strings[cite: 1].
-- **Console Input:** `input()` halts program execution to read a line from standard input, always returning the captured data as a string[cite: 1].
+## 4. Input, Output & Environment
+*   **Printing to console:** The built-in `print()` function is used to output text and data to the screen.
+*   **Taking input from user:** The built-in `input()` function pauses execution to accept text input from the keyboard.
+*   **Built-ins & IDE:** Usage of built-in mathematical numeric functions and the initial setup/navigation for PyCharm.
