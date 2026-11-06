@@ -1,4 +1,4 @@
-# Functions(Part 3): Advanced Function Concepts - Core Notes
+# Functions (Part 3): Advanced Function Concepts - Core Notes
 
 ## 1. Recursive Functions
 * **Principles of Recursion:** A technique where a function calls itself directly or indirectly to solve a problem by decomposing it into smaller, identical sub-problems.

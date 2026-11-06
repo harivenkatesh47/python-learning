@@ -1,4 +1,4 @@
-# Module 09 (Part 2): Argument Parsing & Scope - Core Notes
+# Functions (Part 2): Argument Parsing & Scope - Core Notes
 
 ## 1. Function Parameter Types & Precedence
 * **Positional Arguments:** Values bound to parameters strictly in sequence from left to right based on their position in the call signature.

@@ -1,4 +1,4 @@
-# Module 09 (Part 1): Core Function Mechanics - Core Notes
+# Functions (Part 1): Core Function Mechanics - Core Notes
 
 ## 1. Introduction to Functions & Modular Programming
 * **Definition of a Function:** A named, reusable block of organized statements written to perform a specific computational task.
